@@ -1,0 +1,13 @@
+{
+  "name": "workspace-c",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "workspace-a": "0.1.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

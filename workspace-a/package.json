@@ -1,0 +1,19 @@
+{
+  "name": "workspace-a",
+  "version": "0.1.0",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^13.7.7",
+    "express": "^4.17.1",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "compile": "tsc index.ts --esModuleInterop"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.3"
+  }
+}
